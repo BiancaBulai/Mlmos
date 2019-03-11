@@ -1,0 +1,7 @@
+[Unit]
+Description=tema1
+[Service]
+Type=simple
+ExecStart=/bin/bash /root/secondary.sh
+[Install]
+WantedBy=multi-user.target
